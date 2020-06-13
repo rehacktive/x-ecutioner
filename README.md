@@ -67,7 +67,4 @@ and the compressed version:
 	sys     0m0.064s
 
 
-	real    0m0.630s
-	user    0m0.600s
-	sys     0m0.064s
-
+Released under https://mit-license.org/
