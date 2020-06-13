@@ -24,8 +24,8 @@ memrun.go is originally from here https://github.com/guitmz/memrun, modified for
 
 **Compression:**
 
-	 13197468 binary1
-	 90451972 binary1_mem
+	13197468 binary1
+	90451972 binary1_mem
 	
 	(from 13mb to 9mb)
 	
@@ -61,7 +61,15 @@ another example:
 and the compressed version:
 
 	time ./binary2_mem 
+	...mpressed version:
+
+	time ./binary2_mem 
 	...
+	real    0m0.630s
+	user    0m0.600s
+	sys     0m0.064s
+
+
 	real    0m0.630s
 	user    0m0.600s
 	sys     0m0.064s
