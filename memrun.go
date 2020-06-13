@@ -1,6 +1,6 @@
 package main
 
-// from https://github.com/guitmz/memrun
+// modified - from https://github.com/guitmz/memrun
 
 import (
 	"fmt"
