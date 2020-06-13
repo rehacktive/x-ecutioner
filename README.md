@@ -1,4 +1,4 @@
-##x-ecutioner
+## x-ecutioner
 
 This is just a script plus some code that will generate, from a linux ELF binary, a compressed version (so your Go linux binary could be smaller!)
 
@@ -20,7 +20,7 @@ The new binary will be slightly slower at start. See below.
 
 memrun.go is originally from here https://github.com/guitmz/memrun, modified for this usage.
 
-####My tests
+#### My tests
 
 **Compression:**
 
