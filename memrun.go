@@ -4,6 +4,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"syscall"
 	"unsafe"
@@ -21,12 +22,12 @@ const (
 var BinaryName = "unset"
 
 func runFromMemory() {
-	fdName := "" // *string cannot be initialized
+	fdName := ""
 	fd, _, _ := syscall.Syscall(memfdCreate, uintptr(unsafe.Pointer(&fdName)), uintptr(mfdCloexec), 0)
 
 	data, err := Asset(BinaryName)
 	if err != nil {
-		// Asset was not found.
+		log.Fatal(err)
 	}
 
 	_, _ = syscall.Write(int(fd), data)
