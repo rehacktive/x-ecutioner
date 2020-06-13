@@ -61,9 +61,6 @@ another example:
 and the compressed version:
 
 	time ./binary2_mem 
-	...mpressed version:
-
-	time ./binary2_mem 
 	...
 	real    0m0.630s
 	user    0m0.600s
