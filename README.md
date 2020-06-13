@@ -1,6 +1,6 @@
 ## x-ecutioner
 
-This is just a script plus some code that will generate, from a linux ELF binary, a compressed version (so your Go linux binary could be smaller!)
+This is just a script plus some code that will generate a compressed version of a linux ELF executable, - so your Go linux binary could be smaller!
 
 Requirements:
 
