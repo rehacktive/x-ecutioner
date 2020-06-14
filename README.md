@@ -27,12 +27,12 @@ memrun.go is originally from here https://github.com/guitmz/memrun, modified for
 	13197468 binary1
 	 8368128 binary1_mem
 	
-	(from 13mb to 9mb)
+	(from ~13mb to ~8mb)
 	
 	27190864 binary2
 	18780160 binary2_mem
 	
-	(from 27mb to 19mb)
+	(from ~27mb to ~18mb)
 	
 **Execution time:**
 
