@@ -6,5 +6,5 @@ if [ -z "$1" ]
 fi
 
 BINARY=$1 go generate
-go build -o $1"_mem" -ldflags "-X main.BinaryName=$1"  memrun.go bindata.go 
+go build -o $1"_mem" -ldflags "-X main.BinaryName=$1 -w -s" memrun.go bindata.go 
 rm bindata.go
